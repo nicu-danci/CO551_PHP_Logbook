@@ -16,7 +16,8 @@
 
   // If we do not specify an index position i.e. []  where will PHP insert the value?
 
-  echo "<br /> If we do not specify an index position i.e. [] PHP will insert the value to the next index position ([4] this exercise).<br />";
+  echo "<br /> If we do not specify an index position i.e. [] PHP will insert the value to
+   the next index position ([4] this exercise).<br />";
   echo "I've also given a empty value to index 1,2 and 5.If not the script will throw an warning.";
 ?>
 

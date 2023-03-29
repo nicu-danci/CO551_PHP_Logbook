@@ -5,7 +5,7 @@ if (strpos($_SERVER["HTTP_USER_AGENT"], "MSIE") != false)
 }
 else
 {
-   echo "Why are you not using Internet Explorer ?<br />";
+   echo "Why are you not using Internet Explorer ? <br />";
 }
 ?> 
 

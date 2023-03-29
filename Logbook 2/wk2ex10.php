@@ -19,21 +19,10 @@
 <table border=2 align="left">
 <tr><th>Year</th><th>Grade</th></tr> 
 <?php
-  /*for($count = 0;$count < 3;$count++)
-  {
-    echo "<tr><td>$count</td><td>$mymarks[$count]</td></tr>";
-  }	*/
-
- /* for($count = 1;$count <= 3;$count++)
-      {
-        echo "<tr><td>Year $count</td><td>$mymarks["year $count"]</td></tr>";
-      }	
-*/
       foreach($mymarks as $index => $value)
   {
     echo "<tr><td> $index </td><td>  $value</td></tr>";
   }
- 
 ?>
 </table>
 </body>
